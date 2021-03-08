@@ -96,6 +96,53 @@ header > .logo{
 }
 
 
+button{
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.menu,
+.menu:after,
+.menu:before{
+    border-radius: 1px;
+    background-color: rgb(23, 15, 28);
+    width: 34px;
+    height: 4px;
+}
+
+.menu{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    opacity: 0.6;
+
+    position: relative;
+}
+
+.menu:after,
+.menu:before{
+    left: 0;
+    content: " "; 
+    position: absolute;
+}
+
+.menu:after{ top: 8px; }
+.menu:before{ top: -8px; }
+
+
+
+
+
+
+
+p.menu:before {  
+    content: " ";  
+    position: relative;  
+    bottom: 8px;  
+}  
+
+
 section.resume{ 
     background-color: rgb(245, 245, 245);
     padding-bottom: 0;
@@ -116,7 +163,6 @@ section.resume{
 }
 
 
-
 .description > p{
     display: block;
 
@@ -126,7 +172,6 @@ section.resume{
     text-align: center;
     width: 60%;
 }
-
 
 .resume > .message_form{
     border-radius: 2px;
@@ -210,6 +255,7 @@ button.send_message{
     align-items: center;
     justify-content: space-around;
 }
+  
 
 .working_progress > ul > .product{
     background-color: #fff;
@@ -224,6 +270,9 @@ button.send_message{
     width: 200px;
 
     margin: 0 15px 0 15px;
+
+    font-family: "Open Sans";
+    color: rgba(255, 255, 255, 0.902);
 }
 
 .working_progress > ul > .product_one{ background-color: rgb(78, 178, 247); }
@@ -397,6 +446,90 @@ section.team > ul > .person.about_person_primary{
     box-shadow: 0px 0px 49px 0px rgba(20, 20, 21, 0.11);
 }
 
+.skills{
+    width: 50%;
+}
+
+.skills > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.person_position_primary{
+    margin: 0;
+    font-family: "Open Sans";
+    color: rgba(255, 114, 76, 0.902);
+    line-height: 2.867;
+}
+
+.person_social{
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.person_social > a{
+    margin: 0 5px 0 5px;
+}
+
+p.scale_label{
+    margin: 0;
+    font-family: "Open Sans";
+    color: rgb(0, 0, 0);
+    line-height: 1.799;
+    text-align: center;
+}
+
+  
+
+p.scale{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0;
+    margin-bottom: 10px;
+    border-radius: 2px;
+    background-color: rgb(112, 112, 112);
+    width: 100%;
+    height: 4px;
+}
+
+
+span.red_part{
+    display: flex;
+    width: 80%;
+    height: 100%;
+    border-radius: 2px;
+    background-color: rgb(255, 110, 71);
+}
+  
+span.red_part.red_part_ui_ux{
+    width: 80%;
+}
+span.red_part.red_part_english{
+    width: 65%;
+}
+span.red_part.red_part_comunication{
+    width: 72%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 section.team > ul > .person > .position{ 
     width: 262px;
     height: 95px;
@@ -413,11 +546,9 @@ section.team > ul > .person > .position{
     box-shadow: 0px 6px 16px 0px rgba(20, 20, 21, 0.08);
 }
 
-section.team > ul > .person.about_person > div > p{ 
-    margin: 0 0 0 0 ;
-}
 
 section.team > ul > .person > div > .person_name{ 
+    margin-bottom: -10px;
     font-size: 30px;
     color: rgba(0, 0, 0, 0.702);
     line-height: 1.525;
@@ -430,18 +561,10 @@ section.team > ul > .person > div > .person_position{
 }
 
 section.team > ul > .person.about_person_primary > .position{ 
-    top: 100px;
+    top: 75px;
     border-radius: 0;
     background-color: rgb(255, 243, 240);
     box-shadow: 0px 0px 0px 0px;
-}
-
-section.team > ul > .person.about_person_primary > .position > .person_name{ 
-    margin: 0;
-}
-
-section.team > ul > .person.about_person_primary > .position > .person_position{ 
-    margin: 0;
 }
 
 
@@ -466,9 +589,14 @@ section.reviews{
     margin-top: 100px;
 }
 
+
+
+
+
+
 .reviews_main_block::before{
     content: " ";    
-    background: url(/second/img/arrow_left.png) center center #ddd;  
+    background: url(/a_bit_harder_page/img/arrow_left.png) center center #ddd;  
     background-color: rgb(255, 255, 255);
     box-shadow: 0px 3px 14px 0px rgba(20, 20, 21, 0.08);
     margin-right: -25px;
@@ -476,7 +604,7 @@ section.reviews{
 
 .reviews_main_block::after{
     content: " ";    
-    background: url(/second/img/arrow_right.png) center center #ddd;  
+    background: url(/a_bit_harder_page/img/arrow_right.png) center center #ddd;  
     background-color: rgb(255, 110, 71);
     box-shadow: 0px 3px 14px 0px rgba(20, 20, 21, 0.28);
     margin-left: -25px;
@@ -600,12 +728,85 @@ li.reviews_palki.orange_palka{
 
 
 
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(247, 247, 247);
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+ul.sponsors{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+ul.sponsors > li{
+    margin: 0 30px 0 30px;
+}
 
 
+div.bottom-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 125px;
+}
+
+button.contact_button{
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(1, 2, 2, 0.07);
+    border-radius: 27px;
+    background-color: rgba(253, 253, 253, 0.07);
+    box-shadow: 0px 11px 20px 0px rgba(20, 20, 21, 0.07);
+    width: 236px;
+    height: 53px;
+
+    font-size: 16px;
+    font-family: "Open Sans";
+    color: rgba(0, 0, 0, 0.9);
+    line-height: 1.563;
+    text-align: center;
+    cursor: pointer;
+}
+
+  
 
 
+ul.social_media{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
 
+.social_media > a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: rgb(211, 211, 211);
+    width: 54px;
+    height: 52px;
+    margin-right: 20px;
+}
 
+.social_media > a:hover{
+    background-color: rgb(255, 110, 71);
+    box-shadow: 0px 0px 23px 0px rgba(20, 20, 21, 0.29);
+}
 
-
+p.copyright{
+    font-size: 17px;
+    font-family: "Open Sans";
+    color: rgba(4, 4, 4, 0.6);
+    line-height: 2.691;
+    text-align: center;
+}
 
