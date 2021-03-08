@@ -1,0 +1,251 @@
+
+section.pets_section{
+    width: 1012px;
+}
+
+
+p.popular_categories_label{
+    font-family: "Roboto";
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 21px;
+    margin-bottom: 15px;
+    margin-left: 5px;
+}
+
+ul.popular_categories{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+a.popular_category{
+    margin: 0 8px 8px 0;
+    padding: 8px;
+    display: inline-block;
+    background-color: #dbdbdb;
+    border-radius: 18px;
+    font-family: "Roboto",Arial,Helvetica,sans-serif;
+}
+
+div.find_by{
+    margin-top: 68px;
+    margin-bottom: 68px;
+}
+
+form{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input.find_by_name{
+    font-size: 18px;
+    height: 64px;
+    border-radius: 16px;
+    padding: 10px 24px;
+    width: 300px;
+
+    outline: none;
+    border: 2px solid rgba(57,55,56,.5);
+}
+
+button.show_filter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-transform: uppercase;
+
+    background-color: #ed1d24;
+    color: #fff;
+    padding: 18px 40px;
+    border-radius: 15px;
+    font-size: 18px;
+    width: 247px;
+    height: 60px;
+}
+
+
+select#select_genre{
+    -webkit-box-align: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 16px;
+    box-shadow: none;
+    cursor: default;
+    min-height: 38px;
+    position: relative;
+    transition: all 100ms ease 0s;
+    box-sizing: border-box;
+    z-index: 10;
+    color: rgb(117, 117, 117);
+    height: 64px;
+    padding: 10px 24px;
+    font-size: 18px;
+    outline: 0px !important;
+    border: 2px solid rgb(156, 155, 155);
+    width: 247px;
+
+    width: 300px;
+}
+
+
+
+
+.how_mane_finded{
+    font-size: 19px;
+    text-align: left;
+    color: #777174;
+    margin-bottom: 10px;
+}
+
+/*padding: 20px;*/
+
+ul.pets{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a.pet{
+    width: 311px;
+    height: 491px;
+    color: #fff;
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    text-align: center;
+    border-radius: 30px;
+    background-color: grey;
+    margin-bottom: 50px;
+}
+
+li.pet_li{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+li.pet_li:hover{
+    padding: 50px;
+    transition: 0.5s;
+}
+
+h3.pet_name{
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 34px;
+    text-shadow: -0   -1px 0   #6e6e6e,
+    0   -1px 0   #6e6e6e,
+   -0    1px 0   #6e6e6e,
+    0    1px 0   #6e6e6e,
+   -1px -0   0   #6e6e6e,
+    1px -0   0   #6e6e6e,
+   -1px  0   0   #6e6e6e,
+    1px  0   0   #6e6e6e,
+   -1px -1px 0   #6e6e6e,
+    1px -1px 0   #6e6e6e,
+   -1px  1px 0   #6e6e6e,
+    1px  1px 0   #6e6e6e,
+   -1px -1px 0   #6e6e6e,
+    1px -1px 0   #6e6e6e,
+   -1px  1px 0   #6e6e6e,
+    1px  1px 0   #6e6e6e;
+}
+
+div.pet_buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+p.pet_button{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin: 0 5px;
+    font-size: 18px;
+    width: 135px;
+    background-color: #EDE9DE;
+    color: #393738;
+}
+
+.pet_button > img{
+    margin-right: 10px;
+}
+
+.female_icon_img{
+    margin-right: 10px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    background-image: url(/HTML/profile2/img/icons/calendar_icon.svg);
+
+    width: 22px;
+    height: 22px;
+    margin-right: 10px;
+}
+
+ul.pets_pages{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+
+ul.pets_pages > li{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    color: rgb(71, 71, 71);
+    font-weight: 600;
+}
+
+#active_page{
+    border-radius: 50%;
+    color: #fff;
+    background-color: #40AFB1;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

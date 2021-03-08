@@ -1,0 +1,185 @@
+
+:root {
+    --thin: 300;
+    --normal: 400;
+    --bold: 600;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+html {
+    overflow-y: scroll; 
+}
+
+body {
+    background: #f2f2f2;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+a {
+    text-decoration:none;
+    color:#0072de;
+    border-radius: 20px;
+    transition: 0.16s;
+    margin-left: -10px;
+    margin-right: 20px;
+}
+
+.form {
+    background: #fcfcfc;
+    padding: 50px;
+    max-width:580px;
+    margin:40px auto;
+    border-radius: 20px;
+    box-shadow:0 4px 10px 4px rgb(219, 219, 219);
+}
+
+.tab-group {
+    list-style:none;
+    padding:0;
+    margin:20px 0 20px 50px;
+}
+
+.tab-group:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.tab-group li a {
+    display:block;
+    text-decoration:none;
+    padding:10px 0 0 15px;
+    background: #ededed;
+    color: #252525;
+    font-size:20px;
+    float:left;
+    width: 200px;
+    height: 50px;
+    text-align:center;
+    cursor:pointer;
+}
+
+.tab-group li a:hover {
+    font-size: 17.5px;
+    background: #d6d6d6cb;
+}
+
+.tab-content > div:last-child {
+    display:none;
+}
+
+
+form {
+    margin-left: 25px;
+}
+
+h1 {
+    text-align:center;
+    color: #0072de;
+    font-weight: var(--thin);
+    margin:0 0 40px;
+}
+
+label {
+    position:absolute;
+    transform:translateY(6px);
+    left:5px;
+    top: -5px;
+    color: #909090;
+    transition:all 0.25s ease;
+    -webkit-backface-visibility: hidden;
+    pointer-events: none;
+    font-size:17px;
+}
+
+
+label.active {
+    color: #0072de;
+    transform:translateY(50px);
+    left:2px;
+    margin-top: -10px;
+    font-size:15px;
+}
+
+
+label.highlight {
+	color: white;
+}
+
+input, textarea {
+    cursor: pointer;
+    font-size:20px;
+    display:block;
+    width:80%;
+    height:100%;
+    padding-bottom: 7px;
+    padding-left: 5px;
+    background:none;
+    background-image:none;
+    border: none;
+    border-bottom: 1px solid #8c8c8c;
+    color: #0072de;
+}
+
+input, textarea :focus {
+    outline:0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.field-wrap {
+    position:relative;
+    margin-bottom:40px;
+}
+
+.top-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.top-row > div {
+    float:left;
+    width:48%;
+    margin-right:4%;
+}
+.top-row:last-child { 
+    margin:0;
+ }
+
+.button {
+    cursor: pointer;
+    border:0;
+    outline:none;
+    border-radius:0;
+    padding:15px 0;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing:.1em;
+    background:#0072de;
+    border-radius: 5px;
+    color:white;
+    transition:all.5s ease;
+    -webkit-appearance: none;
+}
+
+.button:hover, button:focus {
+    background: #0072de;
+}
+
+.button-block {
+    margin: 0 auto;
+    display:block;
+    width: 60%;
+}
+
+
+.forgot {
+    margin-top:-20px;
+    text-align:right;
+}

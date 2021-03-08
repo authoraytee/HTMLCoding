@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/pets_catalog.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="/HTML/profile2/pet_catalog.html">
+            <p class="logo"><span class='orange_text'>Find_</span>pet</p>
+        </a>
+        <ul class="nav_menu">
+            <li><a href="/HTML/profile2/pet_catalog.html">Find a pet</a></li>
+            <li><a href="#">About project</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Help the shelter</a></li>
+            <li class="login_button_li">
+                <form action="/HTML/profile2/profile.html">
+                    <button class="common_button login_button"></button>
+                </form>
+            </li>
+        </ul>
+    </header>
+
+    <section class="pets_section">
+        <div class="mini_map">
+            <p><a href="/HTML/profile2/pet_catalog.html">Home</a>/<a href="/HTML/profile2/pet_catalog.html">Find a pet</a></p>
+        </div>
+        <div class="categories">
+            <p class="popular_categories_label">POPULAR CATEGORIES</p>
+            <ul class="popular_categories">
+                <a class="popular_category" href="#"><li>All cats</li></a>
+                <a class="popular_category" href="#"><li>Kittens</li></a>
+                <a class="popular_category" href="#"><li>Cats</li></a>
+                <a class="popular_category" href="#"><li>All dogs</li></a>
+                <a class="popular_category" href="#"><li>Puppies</li></a>
+                <a class="popular_category" href="#"><li>Dogs of young breeds</li></a>
+                <a class="popular_category" href="#"><li>Ginger kittens</li></a>
+                <a class="popular_category" href="#"><li>Black cats</li></a>
+                <a class="popular_category" href="#"><li>White cats</li></a>
+            </ul>
+        </div>
+        <div class="find_by">
+            <form action="">
+                <input class="find_by_name" placeholder="Find by name" type="text">
+                <button class="show_filter">Show filter</button>
+                <select id="select_genre">
+                    <option value="Default">Default</option>
+                    <option value="By date">By date</option>
+                </select>
+            </form>
+        </div>
+        <div class="catalog">
+            <p class="how_mane_finded">Found 34</p>
+            <ul class="pets">
+                <a class="pet" href="" style="background-image: url(img/pets/floppa.jpg);">
+                    <li class="pet_li">
+                        <h3 class="pet_name">Big floppa</h3>
+                        <div class="pet_buttons">
+                            <p class="pet_button gender">
+                                <img src="/HTML/profile2/img/icons/male_icon.svg" alt="male_icon">
+                                Male
+                            </p>
+                            <p class="pet_button years_old">
+                                <img src="/HTML/profile2/img/icons/calendar_icon.svg" alt="calendar_icon">
+                                0 years
+                            </p>
+                        </div>
+                    </li>
+                </a>
+                <a class="pet" href="/HTML/profile2/sam.html" style="background-image: url(img/pets/sam.jpg);">                
+                    <li class="pet_li">
+                        <h3 class="pet_name">Sam</h3>
+                        <div class="pet_buttons">
+                            <p class="pet_button gender">
+                                <img src="/HTML/profile2/img/icons/male_icon.svg" alt="male_icon">
+                                Male
+                            </p>
+                            <p class="pet_button years_old">
+                                <img src="/HTML/profile2/img/icons/calendar_icon.svg" alt="calendar_icon">
+                                3 years
+                            </p>
+                        </div>
+                    </li>
+                </a>
+                <a class="pet" href="" style="background-image: url(img/pets/lucy.jpg);">                
+                    <li class="pet_li">
+                        <h3 class="pet_name">Lucy</h3>
+                        <div class="pet_buttons">
+                            <p class="pet_button gender">
+                                <img src="/HTML/profile2/img/icons/female_icon.svg" alt="male_icon">
+                                Female
+                            </p>
+                            <p class="pet_button years_old">
+                                <img src="/HTML/profile2/img/icons/calendar_icon.svg" alt="calendar_icon">
+                                4 years
+                            </p>
+                        </div>
+                    </li>
+                </a>
+                <a class="pet" href="" style="background-image: url(img/pets/vasya.jpg);">                
+                    <li class="pet_li">
+                        <h3 class="pet_name">Vasya</h3>
+                        <div class="pet_buttons">
+                            <p class="pet_button gender">
+                                <img src="/HTML/profile2/img/icons/male_icon.svg" alt="male_icon">
+                                Male
+                            </p>
+                            <p class="pet_button years_old">
+                                <img src="/HTML/profile2/img/icons/calendar_icon.svg" alt="calendar_icon">
+                                2 years
+                            </p>
+                        </div>
+                    </li>
+                </a>
+                <a class="pet" href="" style="background-image: url(img/pets/bichevka.jpg);">                
+                    <li class="pet_li">
+                        <h3 class="pet_name">Jessi</h3>
+                        <div class="pet_buttons">
+                            <p class="pet_button gender">
+                                <img src="/HTML/profile2/img/icons/female_icon.svg" alt="male_icon">
+                                Female
+                            </p>
+                            <p class="pet_button years_old">
+                                <img src="/HTML/profile2/img/icons/calendar_icon.svg" alt="calendar_icon">
+                                5 years
+                            </p>
+                        </div>
+                    </li>
+                </a>
+                <a class="pet" href="" style="background-image: url(img/pets/frog.jpeg);">                
+                    <li class="pet_li">
+                        <h3 class="pet_name">Klava</h3>
+                        <div class="pet_buttons">
+                            <p class="pet_button gender">
+                                <img src="/HTML/profile2/img/icons/female_icon.svg" alt="male_icon">
+                                Female
+                            </p>
+                            <p class="pet_button years_old">
+                                <img src="/HTML/profile2/img/icons/calendar_icon.svg" alt="calendar_icon">
+                                5 mon.
+                            </p>
+                        </div>
+                    </li>
+                </a>
+            </ul>
+            <ul class="pets_pages">
+                <li id="active_page"><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <ul>
+            <li><a href="#">Pets</a></li>
+            <li><a href="#">About project</a></li>
+            <li><a href="#">Partners</a></li>
+            <li><a href="#">Help the shelter</a></li>
+            <li><a href="#">Project rules</a></li>
+        </ul>
+        <ul>
+            <li><a href="#">Frequently asked Questions</a></li>
+            <li><a href="#">Feedback</a></li>
+            <li><a href="#">Site Map</a></li>
+            <li><a href="#">Confidentiality</a></li>
+        </ul>
+    </footer>
+
+</body>
+</html>

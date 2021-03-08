@@ -1,0 +1,68 @@
+
+
+section.profile_main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: space-around;
+
+    position: relative;
+    top: -10px;
+    z-index: -1;
+    
+    width: 60%;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+
+    margin-bottom: 100px;
+}
+
+.profile_main > .top{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top > .name{
+    font-size: 45px;
+    font-weight: 900;
+    font-size: "Roboto";
+}
+
+
+/*Do not work*/
+button.settings_button{
+    background-image: url(/HTML/profile2/img/icons/gear_icon.png);
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+
+
+.how_long_on_project{
+    margin: 10px 0 10px 0;
+}
+
+
+ul.user_info{
+    display: flex;
+    flex-direction: row;
+
+    font-size: 16px;
+    font-weight: 400;
+
+    margin: 0;
+    margin-top: 45px;
+}
+
+.user_info_inner_li{
+    margin-right: 20px;
+}
+
+.inner_ul > li{
+    margin-bottom: 15px;
+}

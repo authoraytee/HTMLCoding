@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="29px" viewBox="0 0 18 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="button-/-personal" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-15.000000, -10.000000)">
+        <g id="Group" stroke="#393738" stroke-width="2">
+            <g id="Group-2" transform="translate(16.000000, 11.000000)">
+                <circle id="Oval" cx="8" cy="4.8" r="4.8"></circle>
+                <path d="M8,14.2666667 L8,14.2666667 L8,13.6 C12.3333333,13.6 16,14.6 16,17.6 C16,20.6 14.6666667,26.2666667 8,26.2666667 L8,25.6 L8,25.6 C8,25.8200321 8,26.0421925 8,26.2666667 C1.33333333,26.2666667 0,20.6 0,17.6 C0,14.6 3.66666667,13.6 8,13.6 C8,13.8239262 8,14.0460721 8,14.2666679 Z" id="Combined-Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>
