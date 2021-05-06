@@ -87,7 +87,7 @@ ul.nav_menu > li{
 
 
 section.header_section{
-    background-image: url(/img/header_section_background.png);
+    background-image: url(../img/header_section_background.png);
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -738,7 +738,7 @@ button.more_view{
 
 
 section.contact_us{
-    background-image: url(/img/contact_us_background.png);
+    background-image: url(../img/contact_us_background.png);
     display: flex;
     flex-direction: column;
     justify-content: space-around;
